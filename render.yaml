@@ -5,7 +5,5 @@ services:
     plan: free
     dockerfilePath: ./Dockerfile
     autoDeploy: true
-    healthCheckPath: /
-    healthCheckTimeoutSeconds: 120
-    ports:
-      - 8080
+    healthCheckPath: /plone
+    healthCheckTimeoutSeconds: 180
